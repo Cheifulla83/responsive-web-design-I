@@ -216,7 +216,19 @@ footer {
 
 @media screen and (max-width: 500px) {
     header nav {
-        
+        flex-direction: column;
     }
-
+    .top-nav {
+        display: flex;
+    }
+    .top-nav a {
+        padding-top: 10px;
+        margin: 0 auto;
+    } 
+    header nav a:first-child {
+        margin: 0 auto;
+    }
+    header nav a:last-child {
+        margin: 0 auto;
+    }
 }
